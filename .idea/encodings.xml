@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/org/dao/LoginDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/org/db/DBconn.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/org/servlet/LeaveMessageServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/org/servlet/LoginServlet.java" charset="GBK" />
+  </component>
+</project>

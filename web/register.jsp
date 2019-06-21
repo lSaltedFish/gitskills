@@ -1,0 +1,35 @@
+<%@ page language="java" import="java.util.*" pageEncoding="gb2312"%>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>  
+    <title>×¢²á½çÃæ</title>
+  </head>
+  
+  <body bgcolor="#ddd" style="font-family:Microsoft YaHei" >
+  <div style="text-align:center;margin-top:120px">
+    <h1 >Çë×¢²á</h1>
+    <form action="registerServlet" method="post">
+    	<table style="margin-left:40%">
+    		<caption>ÓÃ»§×¢²á</caption>
+    		<tr>
+    		    <td>ID:</td>
+    		    <td><input name="id" type="text" size="20"></td>
+    		</tr>
+    		<tr>
+    			<td>µÇÂ¼Ãû£º</td>
+    			<td><input name="name" type="text" size="20"></td>
+    		</tr>
+    		<tr>
+    			<td>ÃÜÂë:</td>
+    			<td><input name="password" type="password" size="21"></td>
+    		</tr>
+    	</table> 
+    	<input type="submit" value="×¢²á">
+    	<input type="reset" value="ÖØÖÃ"> 
+    </form>
+    <br>
+    <a href="login.jsp">µÇÂ¼</a>
+    </div>
+  </body>
+</html>
